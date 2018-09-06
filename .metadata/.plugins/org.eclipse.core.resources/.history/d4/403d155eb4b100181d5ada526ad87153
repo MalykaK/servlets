@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Credit Card</title>
+</head>
+<body>
+
+<form action="CreditCard" method="post">
+<label>Name on card</label>
+<input type="text" name="cardname" size="15"/>
+<br><br>
+<label>CardNumber</label>
+<input type="text" name="cardnum" size="15"/>
+<br><br>
+<label>Expire Month</label>
+<input type="text" name="expmonth" size="15"/>
+<br><br>
+<label>Expire year</label>
+<input type="text" name="expyear" size="15"/>
+<br><br>
+<label>CVV</label>
+<input type="text" name="cvv" size="15"/>
+<br><br>	
+</form>  
+</body>
+</html>
